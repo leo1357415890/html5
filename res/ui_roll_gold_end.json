@@ -1,0 +1,375 @@
+{
+  "ID": "dbc44c7f-d479-42cf-8b35-f1f6bd7ac02c",
+  "Version": "2.3.2.3",
+  "Name": "ui_roll_gold_end",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 7,
+        "Children": [
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 70,
+              "G": 80,
+              "B": 102
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.7521,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0012,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 0.7521,
+            "RightMargin": -0.7521,
+            "Tag": 8,
+            "Children": [
+              {
+                "FontSize": 40,
+                "LabelText": "本次得分",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.1771,
+                  "Y": 797.3757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5003,
+                  "Y": 0.7019
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 240.1771,
+                "RightMargin": 239.8229,
+                "TopMargin": 318.6243,
+                "BottomMargin": 777.3757,
+                "Tag": 10,
+                "ActionTag": -368459423,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 40.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "最高分：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 217.1476,
+                  "Y": 503.5565
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3393,
+                  "Y": 0.4433
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 145.1476,
+                "RightMargin": 350.8524,
+                "TopMargin": 614.4435,
+                "BottomMargin": 485.5565,
+                "Tag": 12,
+                "ActionTag": 1688014635,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 36.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ui_xuanyao.png",
+                  "Plist": "roll_gold.plist"
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 479.9756,
+                  "Y": 1010.4074
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.75,
+                  "Y": 0.8894
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 368.9756,
+                "RightMargin": 49.0244,
+                "TopMargin": 71.0925,
+                "BottomMargin": 955.9074,
+                "Tag": 9,
+                "ActionTag": -953804354,
+                "Size": {
+                  "X": 222.0,
+                  "Y": 109.0
+                },
+                "Name": "ui_xuanyao_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "btn_zailai.png",
+                  "Plist": "roll_gold.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 76,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 323.0371,
+                  "Y": 366.0728
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5047,
+                  "Y": 0.3222
+                },
+                "PreSize": {
+                  "X": 0.3906,
+                  "Y": 0.0863
+                },
+                "LeftMargin": 198.0371,
+                "RightMargin": 191.9629,
+                "TopMargin": 720.9272,
+                "BottomMargin": 317.0728,
+                "Tag": 15,
+                "ActionTag": -1078354557,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 98.0
+                },
+                "Name": "btnPlayAgain",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "LabelText": "30",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "number.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 378.8839,
+                  "Y": 505.5376
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.592,
+                  "Y": 0.445
+                },
+                "PreSize": {
+                  "X": 0.0938,
+                  "Y": 0.1039
+                },
+                "LeftMargin": 348.8839,
+                "RightMargin": 231.1161,
+                "TopMargin": 571.4624,
+                "BottomMargin": 446.5376,
+                "Tag": 16,
+                "ActionTag": 1377920062,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 118.0
+                },
+                "Name": "fntMaxScore",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "1",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "number.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 324.7687,
+                  "Y": 686.2264
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5075,
+                  "Y": 0.6041
+                },
+                "PreSize": {
+                  "X": 0.0938,
+                  "Y": 0.0282
+                },
+                "LeftMargin": 294.7687,
+                "RightMargin": 285.2313,
+                "TopMargin": 390.7736,
+                "BottomMargin": 627.2264,
+                "Tag": 17,
+                "ActionTag": 913069964,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 118.0
+                },
+                "Name": "fntNowScore",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -527799124,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "number.fnt",
+        "number_0.png",
+        "roll_gold.plist",
+        "roll_gold.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}
